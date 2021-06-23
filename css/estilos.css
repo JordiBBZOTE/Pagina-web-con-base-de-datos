@@ -1,0 +1,88 @@
+*{
+	margin: 50;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+h1{
+	color: white;
+	text-align: center;
+}
+
+body{
+	background-image:url(../IMG/fondoA.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+.navegacion{
+	width: 1000px;
+	margin: 30px auto;
+	background: rgb(23, 32, 42, 0.7);
+	border-radius: 20px;
+}
+
+.navegacion ul{
+	list-style: none;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: white;
+	font-family: 'arial';
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: forestgreen;
+	transition: all .3s;
+}
+
+.sub{
+	position: absolute;
+	background: #333333;
+	width: 100%;
+	visibility: hidden;
+	opacity: 0;
+	transition: 1.2s;
+}
+
+.sub li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'arial';
+	text-decoration: none;
+}
+
+.menu li:hover .sub{
+	display: block;
+	visibility: visible;
+	opacity: 1;
+}
+
+.boton{
+	align-items: center;
+	text-align: center;
+	border: 3px solid white;
+	padding: 10px 10px;
+	color: white;
+	text-decoration: blink;
+	font-size: 20px;
+	border-radius: 20px;
+	background: rgb(23, 32, 42, 0.7);
+}
+
+.boton:hover{
+	color: forestgreen;
+	transition: all .3s;
+}
+

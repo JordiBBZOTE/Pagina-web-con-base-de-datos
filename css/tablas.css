@@ -1,0 +1,24 @@
+body{
+	
+	width: 100%;
+	height:100%vh;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	color:white;
+}
+table{
+	width: 500px;
+}
+
+table, th, td{
+	border: 1px solid forestgreen;
+	background-color: rgb(23, 32, 42, 0.7);
+	text-align: center;
+}
+
+#imagen{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
